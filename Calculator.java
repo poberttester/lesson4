@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
+
+// Калькулятор. Дополнительно каскадная отмена - отмена нескольких операций
 public class Calculator {
     public void calculatorWithRollback() throws IOException{
         Stack<Double> actionList = new Stack();
